@@ -1,0 +1,15 @@
+// ltl-quic-frame/main.ltl
+//
+// QUIC frame header parser (RFC 9000).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-quic-frame v0.1.0")
+    io::println("QUIC frame header parser (RFC 9000).")
+    0
+}
