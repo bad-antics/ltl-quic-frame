@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_quic_frame
+
+import std::io
+use ltl_quic_frame as lib
+
+fn main() {
+    io::println("ltl_quic_frame demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
